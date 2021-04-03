@@ -1,16 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
-    
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+    background-color: royalblue;
+}
+
+.container h1, .container p  {
+    text-align: center;
+}
+
+.container p {
+    font-size: 2.5rem;
+}
+
+.container p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+ul {
+}
+
+.problems {
+}
+
+.support {
+}
+
+address {
+    text-align: center;
+}
+
+address span {
+    font-weight: bold;
 }
