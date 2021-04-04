@@ -10,7 +10,6 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 50px;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,6 +39,7 @@ ul {
 }
 
 address {
+    color: white;
     text-align: center;
 }
 
