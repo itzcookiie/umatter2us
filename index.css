@@ -6,6 +6,10 @@ body {
     display: flex;
 }
 
+.title {
+    text-decoration: underline;
+}
+
 .image-container {
     display: flex;
     justify-content: center;
